@@ -3,7 +3,7 @@ import Weather from './components/Weather'
 
 const App = () => {
   return (
-    <div className='app md:w-screen sm:w-1/3 sm:justify-center sm:items-center sm:h-3/4 '>
+    <div className='min-h-screen grid bg-pink-300 bg-opacity-50 md:w-screen sm:max-w-screen-sm sm:justify-center sm:items-center sm:h-3/4 sm:bg-pink-600 sm:bg-opacity-50 '>
       <Weather/>
     </div>
   )

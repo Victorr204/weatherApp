@@ -66,7 +66,7 @@ const Weather = () => {
     search('London');
   },[])
   return (
-    <div className='weather'>
+    <div className='weather sm:max-w-screen-sm'>
       <div className="search-bar">
         <input ref={inputRef} type="text" name="" id="" placeholder='search'/>
         <img src={search_icon} alt="" onClick={()=>search(inputRef.current.value)}/>
