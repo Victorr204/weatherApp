@@ -15,5 +15,6 @@
   min-height: 100vh;
   display: grid;
   background-color: rgba(255, 218, 185, 0.521);
+  width: 100vw;
   
 }

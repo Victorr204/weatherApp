@@ -3,7 +3,7 @@ import Weather from './components/Weather'
 
 const App = () => {
   return (
-    <div className='app sm:w-screen sm:justify-center sm:items-center  '>
+    <div className='app md:w-screen sm:w-1/3 sm:justify-center sm:items-center sm:h-3/4 '>
       <Weather/>
     </div>
   )
