@@ -74,6 +74,7 @@
     .weather {
         padding: 15px;
         margin: 5px;
+        background-image: linear-gradient(45deg, hsl(223, 65%, 41%), hsla(204, 85%, 47%, 0.993));
     }
 
     .search-bar input {
